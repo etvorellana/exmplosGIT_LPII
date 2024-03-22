@@ -7,5 +7,6 @@ int main(){
     fgets(nome, 100, stdin);
     nome[strlen(nome)-1] = '\0'; // Remove o \n do final da string (fgets inclui o \n no final da string)
     printf("Ola %s", nome);
+    printf("Tudo bem com vc?\n");
     return 0;
 }
